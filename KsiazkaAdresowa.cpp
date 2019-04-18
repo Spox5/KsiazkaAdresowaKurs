@@ -2,7 +2,7 @@
 
 KsiazkaAdresowa::KsiazkaAdresowa()
 {
-    string nazwaPlikuZUzytkownikami = "Uzytkownicy.txt";
+    nazwaPlikuZUzytkownikami = "Uzytkownicy.txt";
 }
 
 void KsiazkaAdresowa::rejestracjaUzytkownika()
@@ -63,7 +63,7 @@ void KsiazkaAdresowa::dopiszUzytkownikaDoPliku(Uzytkownik uzytkownik)
 {
     fstream plikTekstowy;
     string liniaZDanymiUzytkownika = "";
-    plikTekstowy.open(nazwaPlikuZUzytkownikami.c_str(), ios::app);
+    plikTekstowy.open("Uzytkownicy.txt", ios::app);
     cout << nazwaPlikuZUzytkownikami;
 
     if (plikTekstowy.good() == true)
