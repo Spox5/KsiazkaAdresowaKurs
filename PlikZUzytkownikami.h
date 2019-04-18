@@ -15,6 +15,7 @@ class PlikZUzytkownikami
 {
     string nazwaPlikuZUzytkownikami;
     fstream plikTekstowy;
+    //string liniaZDanymiUzytkownika
 
     bool czyPlikJestPusty();
     string zamienDaneUzytkownikaNaLinieZDanymiOddzielonaPionowymiKreskami(Uzytkownik uzytkownik);
