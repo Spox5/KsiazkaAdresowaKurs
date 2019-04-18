@@ -64,7 +64,6 @@ void KsiazkaAdresowa::dopiszUzytkownikaDoPliku(Uzytkownik uzytkownik)
     fstream plikTekstowy;
     string liniaZDanymiUzytkownika = "";
     plikTekstowy.open("Uzytkownicy.txt", ios::app);
-    cout << nazwaPlikuZUzytkownikami;
 
     if (plikTekstowy.good() == true)
     {
